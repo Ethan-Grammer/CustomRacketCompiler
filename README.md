@@ -27,6 +27,7 @@ Overall, this project helped me to learn the fundamentals when it comes to compi
 - Functions can return multiple values.
 - Functions accept functions with multiple return values as valid input.
 ## How to run this program
-All of these files must be saved under a single directory, and your device must be able to run Racket, a86 assembly, and C. In order to run this custom compiler, you have to open the compile.rkt file, and enter commands into the read-eval-print loop either using the tell() command or show() functions. In order to input commands, simply put your racket line in parenthesis and put it in the tell() and show() function to produce an output in the REPL or print the assembly of the command respectively.
+- All of these files must be saved under a single directory, and your device must be able to run Racket, a86 assembly, and C. In order to run this custom compiler, you have to open the compile.rkt file, and enter commands into the read-eval-print loop either using the tell() command or show() functions. 
+- In order to input commands, simply put your racket line in quotations and put it in the tell() and show() function to produce an output in the REPL or print the assembly of the command respectively.
 ## Credits
 This project was inspired by my compilers class at UMD, which taught me a lot of the ins and outs when it comes to understanding how compilers work and how to write them. 
